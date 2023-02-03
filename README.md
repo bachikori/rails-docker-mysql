@@ -1,8 +1,9 @@
 # README
 ## Dockerでrailsとmysqlの環境を構築する手順
 ```
-git clone https://github.com/bachikori/rails-docker-mysql.git
+git clone https://github.com/bachikori/rails-docker-mysql.git  
 cd rails-docker-mysql
+docker login
 docker-compose up
 ```
 localhost:3000でアクセスできます
