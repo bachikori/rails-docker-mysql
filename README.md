@@ -4,6 +4,8 @@
 git clone https://github.com/bachikori/rails-docker-mysql.git  
 cd rails-docker-mysql
 docker login
+docker-compose build
+docker-compose run --rm web bin/setup # db:createが実行される
 docker-compose up
 ```
 localhost:3000でアクセスできます
